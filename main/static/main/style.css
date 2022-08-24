@@ -1,0 +1,12 @@
+
+body {
+    background: url("images/main_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
