@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="{% static 'main/style.css' %}">
 </head>
 <body>
-    <img id="small_logo" src="{% static 'main/images/main_logo.png' %}">
-    <div class="menu_title">
-        <h1>Bienvenur sur le site de Pizza mama</h1>
-    </div>
-    
+    <div class="centered">
+        <img src="{% static 'main/images/main_logo.png' %}">
+        <a href="{% url 'menu:index' %}">Voir le menu</a>
+    </div>    
 </body>
 </html>
 
